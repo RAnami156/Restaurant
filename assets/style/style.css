@@ -2,6 +2,7 @@
     --black: #311F09;
     --orange: #FF8A00;
     --green: #3FA72F;
+    --white-orange: #FFE6C9;
 }
 
 body, html {
@@ -14,6 +15,8 @@ body, html {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -85,4 +88,71 @@ nav a.checked{
 nav a.checked:hover{
     color: var(--green);
     transform: scale(1.05)
+}
+
+
+/* MAIN */
+
+main {
+    margin-top: 166px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.main-content_about{
+    color: var(--orange);
+    background-color: var(--white-orange);
+    padding: 10px 34px ;
+    border-radius: 126px;
+    display: inline-block;
+
+    margin-bottom: 22px;
+}
+
+.main-content h1{
+    color: var(--black);
+    font-size: 80px;
+    line-height: 110%;
+    font-weight: 700;
+
+    margin-bottom: 22px;
+}
+
+.main-content p{
+    line-height: 200%;
+}
+
+.main-content_buttons {
+    margin-top: 92px;
+}
+
+.main-content_buttons  a:first-of-type{
+    display: inline-block;
+    padding: 17px 62px;
+    background-color: var(--orange);
+    border-radius: 162px;
+    color: white;
+    text-decoration: none;
+    margin-right: 23px;
+
+    transition: transform .4s ;    
+}
+
+.main-content_buttons a:hover {
+    transform: scale(1.05)
+}
+
+.main-content_buttons a:last-of-type{
+    display: inline-block;
+    padding: 17px 55px;
+    background-color: var(--green);
+    border-radius: 162px;
+    color: white;
+    text-decoration: none;
+
+    transition: transform .4s ; 
 }

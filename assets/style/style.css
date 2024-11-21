@@ -1,3 +1,9 @@
+:root{
+    --black: #311F09;
+    --orange: #FF8A00;
+    --green: #3FA72F;
+}
+
 body, html {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -8,4 +14,75 @@ body, html {
 
 * {
     box-sizing: border-box;
+}
+
+.container {
+    max-width: 1237px;
+    margin: 0px auto;
+}
+
+/* HEADER */
+
+header {
+    margin-top: 50px;
+}
+
+
+.header-cotent{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content_last{
+    align-items: center;
+    display: flex;
+}
+
+.header-content_last img{
+    margin-right: 25px;
+}
+
+.header-content_last a:last-of-type{
+    background-color: var(--green);
+    color: white;
+    text-decoration: none;
+    padding: 15px 34px;
+    border-radius: 133px;
+
+    transition: background-color .4s ;
+}
+
+.header-content_last a:last-of-type:hover{
+    background-color: var(--orange);
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 45px;
+    color: var(--black);
+    display: inline-block;
+
+    transition: all .4s ;
+}
+
+nav a:hover{
+    color: var(--green);
+    transform: scale(1.05);
+}
+
+nav a:last-of-type {
+    margin-right: 0;
+}
+
+nav a.checked{
+    color: var(--orange);
+
+    transition: all .4s ;
+}
+
+nav a.checked:hover{
+    color: var(--green);
+    transform: scale(1.05)
 }

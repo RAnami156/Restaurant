@@ -156,3 +156,52 @@ main {
 
     transition: transform .4s ; 
 }
+
+/* WELCOME */
+
+.welcome{
+    background-color: #ECFAF1;
+    padding-top: 147px;
+    padding-bottom: 132px;
+}
+
+.welcome-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-inner h2{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    line-height: 110%;
+    font-size: 80px;
+    margin-bottom: 60px;
+
+    color: var(--black);
+}
+
+.welcome-inner h2 span{
+    color: var(--orange);
+}
+
+.welcome-inner p{
+    color: var(--black);
+    line-height: 200%;
+    margin-bottom: 112px;
+}
+
+.welcome-inner a{
+    background-color: var(--orange);
+    color: white;
+    padding: 17px 45px;
+    border-radius: 162px;
+    text-decoration: none;
+    display: inline-block;
+
+    transition: transform .3s ;
+}
+
+.welcome-inner a:hover{
+    transform:scale(1.1) ;
+}

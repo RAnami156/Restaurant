@@ -608,7 +608,7 @@ main {
 }
 
 .container-open{
-    background: url(/assets/img/Background.png) no-repeat;
+    background: url(../img/Background.png) no-repeat;
     background-size: contain;
     width: 100%;
     height: 588px;
@@ -668,6 +668,7 @@ main {
 }
 
 .order-now a{
+    display: inline-block; 
     font-weight: 600;
     font-size: 20px;
     line-height: 40px;
@@ -678,9 +679,16 @@ main {
     background-color: var(--orange);
     border-radius: 162px;
     padding: 17px 62px;
+
+    transition: all .4s ;
+}
+
+.order-now a:hover{
+    transform: scale(1.05);
 }
 
 .reservation a{
+    display: inline-block; 
     font-weight: 600;
     font-size: 20px;
     line-height: 40px;
@@ -692,6 +700,12 @@ main {
     padding: 17px 62px;
 
     margin-right: 23px;
+
+    transition: all .4s ;
+}
+
+.reservation a:hover{
+    transform: scale(1.05);
 }
 
 /* FOOTER  */

@@ -523,7 +523,89 @@ main {
     background-color: var(--green);
 }
 
+/* CLIENTS */
+
+.clients {
+    background-color: rgba(208, 204, 199, 0.1);
+    padding: 71px 0px 99px 0px;
+}
+
+.clients-inner {
+    background-image: url(../img/Round.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+.clients-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 200%;
+    font-weight: 700;
+    margin-bottom: 57px;
+
+    color: var(--black);
+}
+
+.clients-about-img {
+    margin-bottom: 41px;
+}
+
+.clients-about-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+
+    color: var(--black);
+}
+
+
+.clients-about-text {
+    color: #5C4529;
+    font-size: 20px;
+    line-height: 200%;
+    margin-bottom: 65px;
+}
+
+.clients-about-inner {
+    position: relative;
+    width: 524px;
+    margin: auto;
+}
+
+.clients-about-inner p{
+    color: #5C4529;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+#dot1 {
+    position: absolute;
+    top: -45px;
+    left: -45px;
+    transform: rotate(180deg);
+}
+
+#dot2 {
+    position: absolute;
+    bottom: -45px;
+    right: -45px;
+}
+
+.clients-about-user {
+    margin-bottom: 99px;
+}
+
+
+
+
 /* OPEN */
+
+.open {
+    margin-top: 238px;
+}
 
 .container-open{
     background: url(/assets/img/Background.png) no-repeat;
@@ -612,3 +694,53 @@ main {
     margin-right: 23px;
 }
 
+/* FOOTER  */
+
+footer {
+    background-color: #311F09;
+}
+
+.fotter-pages{
+    padding: 149px 164px;
+    /* width: 1200px; */
+    margin: auto;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.fotter-page h2 {
+    font: "Poppins", serif;
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.social {
+    margin-top: 39px ;
+}
+
+.social img{
+    margin-right:30px ;
+}
+
+.fotter-page p{
+    font: "Poppins", serif;
+    color: #E3E2E0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin-top: 25px;
+  }
+
+.copyright{
+    font: "Poppins", serif;
+    color: #E3E2E0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 74px;
+}
